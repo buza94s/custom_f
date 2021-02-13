@@ -19,4 +19,3 @@ console.log(other);
 console.log(array);
 // => [1]
 */
-console.log(concat([1, 2, 3], 333, [[5]]));
