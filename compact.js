@@ -1,8 +1,8 @@
-compact = (arr) => {
-  /*
-    Создает массив со всеми удаленными значениями false.
-    Значения false, null, 0, "", undefined и NaN являются ложными.
+/*
+Создает массив со всеми удаленными значениями false.
+Значения false, null, 0, "", undefined и NaN являются ложными.
 */
+compact = (arr) => {
   const result = [];
   arr.forEach((item) => {
     item && result.push(item);
